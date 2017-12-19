@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <!--<com.facebook.drawee.view.SimpleDraweeView-->
+    <!--android:id="@+id/sdv_image"-->
+    <!--android:layout_width="100dp"-->
+    <!--android:layout_height="100dp"-->
+    <!--android:layout_margin="8dp"-->
+    <!--fresco:failureImage="@drawable/azz"-->
+    <!--fresco:placeholderImage="@mipmap/ic_launcher"-->
+    <!--fresco:roundAsCircle="true"-->
+    <!--/>-->
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/image_read"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="8dp"
+        fresco:roundedCornerRadius="20dp" />
+
+
+    <TextView
+        android:id="@+id/text1_read"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/text3_read"
+        android:layout_alignRight="@+id/text3_read"
+        android:layout_alignTop="@+id/image_read"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="13dp" />
+
+
+    <TextView
+        android:id="@+id/text2_read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1_read"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="25dp"
+        android:layout_toEndOf="@+id/image_read"
+        android:layout_toRightOf="@+id/image_read"
+        android:text="hvbdfhv" />
+
+
+    <TextView
+        android:id="@+id/text3_read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/text2_read"
+        android:layout_alignBottom="@+id/text2_read"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:text="dfvbudfvy" />
+
+</RelativeLayout>

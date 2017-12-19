@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/changeMaptypeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp">
+        <!--切换街道图按钮-->
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/streetMapBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_title="街道图" />
+        <!--切换遥感图按钮-->
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/satelliteMapBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_title="遥感图" />
+        <!--切换地形图按钮-->
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/topoMapBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_title="地形图" />
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+</LinearLayout>
